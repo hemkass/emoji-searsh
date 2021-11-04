@@ -1,9 +1,12 @@
 import "./App.css";
+import Searsh from "./Searsh";
+import Results from "./Results";
 
 function App() {
   return (
     <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+      <Searsh />
+      <Results />
     </div>
   );
 }
